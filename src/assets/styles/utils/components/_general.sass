@@ -1,0 +1,18 @@
+.container
+    max-width: 100%
+    margin: 0 auto
+    padding: 12px 6px
+    +screen($sd)
+        max-width: $sd
+    +screen($lmd)
+        max-width: $md
+    +screen($lg)
+        max-width: $lmd
+
+.input
+    border: 1px solid var(#{--text-color-default})
+    color: var(#{--text-color-default})
+    width: 100%
+    padding: 8px 12px
+    margin-bottom: 12px
+    border-radius: 12px

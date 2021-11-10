@@ -1,0 +1,37 @@
+@import './components/breakpoints';
+@import './components/colors';
+@import './components/fonts.sass';
+@import './components/images';
+
+:root {
+    //body-background
+    --body-background-dark: #{$body-background-dark};
+    --body-background-light: #{$body-background-light};
+    --body-background-default: var(#{--body-background-light});
+  
+    // //components-background
+    // --components-background-dark: #{$components-background-dark};
+    // --components-background-light: #{$components-background-light};
+    // --components-background-default: var(#{--components-background-light});
+  
+    // //user-background
+    --user-background-dark: #{$body-background-light};
+    --user-background-light: #{$body-background-dark};
+    --user-background-default: var(#{--user-background-light});
+
+    //text
+    --user-text-color-dark: #{$light-color};
+    --user-text-color-light: #{$dark-color};
+    --user-text-color-default: var(#{--user-text-color-light});
+  
+    // //card-shadow
+    // --card-shadow-dark: #{$card-box-shadow-dark};
+    // --card-shadow-light: #{$card-box-shadow-light};
+    // --card-shadow-default: var(#{--card-shadow-light});
+  
+    //text
+    --text-color-dark: #{$dark-color};
+    --text-color-light: #{$light-color};
+    --text-color-default: var(#{--text-color-light});
+  }
+  
